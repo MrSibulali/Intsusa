@@ -1,0 +1,383 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url(/src/fonts/Catamaran-VariableFont_wght.ttf);
+}
+
+body {
+	font-family: myFirstFont;
+	font-family: "Catamaran", sans-serif;
+	max-width: 100% !important;
+}
+.about-paragraph {
+	/* height: 200px; */
+}
+.about-title {
+	font-weight: bold;
+}
+
+.x-picture {
+	height: 250px;
+	background-image: url("../../src/images/x.png");
+	background-size: 100% 100%;
+}
+.logo {
+	width: 120px;
+	height: auto;
+	margin-left: 100px !important;
+}
+.bg-black {
+	background-color: black !important;
+}
+.welcome {
+	width: 100% !important;
+	height: 110vh;
+	background-image: url("../../src/images/home.svg");
+	background-size: 100% 100% !important;
+	margin-top: -10vh;
+}
+
+.welcome-content {
+	margin-top: 35vh;
+	background-color: black;
+	border: solid 2px white;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.welcome h1,
+p {
+	color: rgb(231, 231, 231);
+}
+
+.welcome h1 {
+	font-weight: bolder;
+	font-size: 70px;
+}
+.welcome p {
+	font-weight: bold;
+	font-size: 25x;
+}
+
+.ml-100 {
+	padding-right: 100px;
+}
+
+.p-100 {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+h2 {
+	/* margin-top: 90px; */
+	margin-bottom: 45px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-fluid {
+	position: relative;
+	padding: 10px 100px 20px 100px;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+	width: 100% !important;
+	border: solid 4px #fff;
+}
+
+.mySlides img {
+	width: 100% !important;
+	height: 70vh;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+	cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.next {
+	margin-right: 100px;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 20px 16px;
+	color: white;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Six columns side by side */
+.column {
+	float: left;
+	width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+	opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+	opacity: 1;
+}
+
+.thumbnail {
+	max-width: 100%;
+	margin: auto !important;
+}
+
+section {
+	padding: 0 100px !important;
+	position: relative;
+	width: 100%;
+	height: 60vh;
+}
+
+section video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+section .navigation {
+	/* position: absolute;
+bottom: 2px;
+left: 50%; */
+	/* transform: translateX(-50%); */
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0);
+	padding: 10px 0;
+}
+
+section .navigation li {
+	list-style: none;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 3px 3px 0;
+	opacity: 0.8;
+}
+
+section .navigation li img {
+	width: 130px;
+	height: 120px;
+	transition: 0.5s;
+}
+
+section .navigation li img:hover {
+	width: 150px;
+}
+
+section .navigation li:hover {
+	opacity: 1;
+}
+
+#about,
+#films,
+#contact {
+	height: 90px;
+}
+
+#home {
+	height: 70px;
+}
+
+blockquote {
+	font-size: 16px !important;
+}
+
+.footer img {
+	width: 90px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.footer li {
+	list-style: none;
+}
+
+.footer li a {
+	color: white;
+	font-size: 16px;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.contact4 {
+	font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+	font-weight: 300;
+}
+
+.contact4 h1,
+.contact4 h2,
+.contact4 h3,
+.contact4 h4,
+.contact4 h5,
+.contact4 h6 {
+	color: #3e4555;
+}
+
+.contact4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.contact4 .form-control {
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact4 .form-control:focus {
+	border-color: #ffffff;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 .right-image {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+.contact4.bg-info {
+	background-color: #188ef4 !important;
+}
+
+.contact4 .text-inverse {
+	color: #3e4555 !important;
+}
+
+@media (min-width: 1024px) {
+	.contact4 .contact-box {
+		padding: 80px 105px 80px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact4 .contact-box {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact4 .right-image {
+		position: relative;
+		bottom: -95px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.logo {
+		width: 90px !important;
+		margin-left: 20px !important;
+	}
+
+	.welcome {
+		height: 60vh;
+	}
+
+	.welcome h1 {
+		font-size: 45px !important;
+	}
+	.welcome p {
+		font-size: 20px !important;
+	}
+
+	.container-fluid {
+		max-width: 100% !important;
+		padding: 0 20px;
+	}
+
+	.ml-100 {
+		padding-right: 20px;
+	}
+
+	section {
+		width: 100% i !important;
+		padding: 0 20px !important;
+	}
+
+	section .navigation li img {
+		width: 70px;
+		height: 70px;
+	}
+
+	.container-fluid {
+		padding: 20px !important;
+	}
+	.next {
+		margin-right: 20px;
+	}
+	section .navigation li img:hover {
+		width: 90px;
+	}
+}

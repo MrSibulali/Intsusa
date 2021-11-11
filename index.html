@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Intsusa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark fixed-top navbar-dark bg-black ml-100">
+  <a class="navbar-brand" href="#"><img class="logo" src="./src/images/logo.svg" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#photography">Photography</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#films">Film</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>   
+    </ul>
+  </div>  
+</nav>
+<div id="home"></div>
+<div class="container-fluid welcome">
+  <div class="welcome-content w-100 text-center p-5">
+    <h1>WELCOME</h1>
+    <p>TO THE WORLD OF CREATIVES</p>
+  </div>
+</div>
+
+
+<div id="about"></div>
+<div class="container-fluid p-100" style="margin-top:30px">
+  <h2 class="text-center about-title">ABOUT</h2>
+  <div class="row mt-5 pb-5">
+    <div class="col-sm-4">
+      <div class="x-picture"></div>
+    </div>
+    <div class="col-sm-8">
+      <div class="about-paragraph">
+        Founded in 2020 intsusa films is an award winning documentary film and photography 
+        company based in cape town, south africa . my involvement in community development has given me an incredible experience in inclusive, digital storytelling.
+        
+        <br>
+        <br>
+        using the power of media as a tool to resist and change our social and environmental 
+        challenges that continue to arise daily in our communities and our beautiful nature.
+        my primary focus is documentary filmmaking where my core competencies are 
+        research, videography, directing, and editing ideally while training young people in 
+        basic storytelling. 
+
+        <br>
+        <br>
+        (here i want to portray my portfolio)
+        create a film page then on the page, the films must be displayed then with a title 
+        underneath, for the next to play, make it the behaviour of the page in such a way that 
+        they scroll left for the next film like the one under</div>
+      <hr class="d-sm-none">
+    </div>
+  </div>
+</div>
+
+<div id="photography"></div>
+
+  <div class="container-fluid" style="background-color: rgba(0, 0, 0); margin-top: 45px;">
+    <h2 style="text-align:center; color: #fff; margin-top: 45px;">PHOTOGRAPHY</h2>
+    <div class="mySlides w-75">
+      <!-- <div class="numbertext">1 / 6</div> -->
+      <img src="./src/images/slide/image1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">2 / 6</div> -->
+      <img src="./src/images/slide/image2.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">3 / 6</div> -->
+      <img src="./src/images/slide/image3.JPG" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <!-- <div class="numbertext">4 / 6</div> -->
+      <img src="./src/images/slide/image4.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">5 / 6</div> -->
+      <img src="./src/images/slide/image5.JPG" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <!-- <div class="numbertext">6 / 6</div> -->
+      <img src="./src/images/slide/image6.jpg" style="width:100%;">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="row thumbnail">
+      <div class="column">
+        <img class="demo cursor" src="./src/images/slide/image1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./src/images/slide/image2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./src/images/slide/image3.JPG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./src/images/slide/image4.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./src/images/slide/image5.JPG" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>    
+      <div class="column">
+        <img class="demo cursor" src="./src/images/slide/image6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+    </div>
+  </div>
+
+  <div id="films"></div>
+  <h2 style="text-align:center">FILMS<h2>
+
+  <section>
+    <video id="slider" autoplay muted loop controls>
+      <source src="./src/videos/video1.mp4" type="video/mp4">
+    </video>
+
+    <ul  class="navigation">
+      <li onclick="videoUrl('./src/videos/video1.mp4');"><img src="./src/images/thumb1.PNG" alt=""></li>
+      <li onclick="videoUrl('./src/videos/video4.mp4');"><img src="./src/images/thumb2.PNG" alt=""></li>
+      <li onclick="videoUrl('./src/videos/video3.mp4');"><img src="./src/images/thumb3.PNG" alt=""></li>
+    </ul>
+  </section>
+
+  <div style="height: 45px; width: 100%; margin-top: 180px;"></div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <blockquote>
+          In Africa there is a concept known as “ubuntu” 
+          the profound sense that we are human only 
+          through the humanity of others; that if we are 
+          to accomplish anything in this world it will in 
+          equal measure be due to the work and achievements of others.
+          <br><br>
+          - Nelson Mandela
+        </blockquote>
+  
+      </div>
+  
+      <div class="col-sm-12 col-md-6">
+
+        <blockquote>
+          In Africa there is a concept known as “ubuntu” 
+          the profound sense that we are human only 
+          through the humanity of others; that if we are 
+          to accomplish anything in this world it will in 
+          equal measure be due to the work and achievements of others. <br><br>
+          - Nelson Mandela
+        </blockquote>
+  
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  <div id="contact"></div>
+
+  <div class="bg-info contact4 overflow-hidden position-relative">
+    <!-- Row  -->
+    <div class="row no-gutters">
+      <div class="container">
+        <div class="col-lg-6 contact-box mb-4 mb-md-0">
+          <div class="">
+            <h1 class="title font-weight-light text-white mb-4">Contact</h1>
+            <p class="mt-2" style="font-size: 12px;">933 Khayelitsha street</p>
+            <p class="mt-2" style="font-size: 12px;">Zimbo zelawu</p>
+            <p class="mt-2" style="font-size: 12px;">Cape Town</p>
+            <p class="mt-2" style="font-size: 12px;">1000</p>
+            <p class="mt-2" style="font-size: 12px;">+2788893993</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 right-image p-r-0">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619902.0054433027!2d-122.68851282163044!3d37.534535608111824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1507725785789" -->
+          <!-- width="100%" height="538" frameborder="0" style="border:0" allowfullscreen data-aos="fade-left" data-aos-duration="3000"></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105808.88662920262!2d18.614516580831477!3d-34.03033217699423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc4f2d81f6e52f%3A0x4e5f3efcc5678566!2sKhayelitsha%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1634711278311!5m2!1sen!2sza" 
+          width="100%" height="538" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jumbotron text-left bg-black footer text-white" style="position: relative; margin-bottom: -45px !important;">
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <h4>Awards</h4>
+      <ul style="display: inline;">
+        <li style="display: inline;"><img src="./src/images/Award1.jpeg" alt=""></li>
+        <li style="display: inline;" class="ml-4"><img src="./src/images/Award2.jpeg" style="height: 120px;" alt=""></li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <h4>Quick Links</h4>
+      <ul class="text-left m-0">
+        <li><a href="#about"> About</a></li>
+        <li><a href="#photography"> Photography</a></li>
+        <li><a href="#films"> Films</a></li>
+        <li><a href="#contact"> Contact</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <h4>Find us on Social Media</h4>
+      <ul class="text-left m-0">
+        <li><a href="https://www.facebook.com/friends/requests?profile_id=100071863283738"> Facebook</a></li>
+        <li><a href="https://www.twitter.com/FilmsIntsusa"> Twitter</a></li>
+        <li><a href="https://www.instagram.com/intsusafilms/"> Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+
+
+  function videoUrl(video) {
+    document.getElementById('slider').src = video;
+  }
+  </script>
+
+</body>
+</html>
